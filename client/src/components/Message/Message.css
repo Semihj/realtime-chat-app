@@ -1,0 +1,40 @@
+.msg-container {
+    display: flex;
+    width: 100%;
+    height: max-content;
+
+
+.message {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 14px;
+    .sender-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .wrap {
+        width: max-content;
+        background: gray;
+        padding: 20px;
+        border-bottom-left-radius: 10px;
+        
+     
+    }  
+         
+} 
+.own_msg {
+       justify-content: end;
+       display: flex;
+       flex-direction: row-reverse;
+
+       .wrap {
+        background: blue;
+       }
+    }   
+
+}
